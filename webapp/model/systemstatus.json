@@ -1,0 +1,57 @@
+{
+  "systemstatus": [
+    { 
+    	"name" : "PRIMAVERA" , 
+    	"statuscolor" : "red", 
+        "details": "1:15 PM: System is down.  We are working on the problem."
+    },	
+  	{
+        "name": "NX",
+        "statuscolor": "yellow",
+        "details": "Slow logon times have been reported."
+    },
+    {
+        "name": "SAP",
+        "statuscolor": "yellow",
+        "details": "The maintenance window this weekend will be longer than usual. System will not be available until 10:00 AM on Sunday."
+    },
+    {
+        "name": "AUTOCAD",
+        "statuscolor": "green",
+        "details": "Earlier problems have been resolved."
+    },
+    {
+        "name": "TEAMCENTER",
+        "statuscolor": "green"
+    }
+  ],
+"events": [
+  	{
+  		"eventcolor": "Yellow",
+  		"type": "Service Interruption",
+  		"description": "MyTime System Update/Improvements",
+		"who": "All MyTime Users",
+		"what": "MyTime will be updated with several improvements on Saturday, 4/15/17.  Expect a brief system downtime between 6:00 PM -7:00 PM.",
+		"when": "Saturday, April 15, 2017, between 6:00 PM -7:00 PM"
+  	},
+  	{
+  		"eventcolor": "green",
+  		"type": "Mobility",
+  		"description": "Work Calendar (Knox) no longer shared to Personal Side (Open Instance) on the mobile phones.",
+		"who": "(Knox) Mobility Users",
+		"what": "Per government requirements, the work calendar (inside of Knox container) will no longer be able to be viewed on the personal side of the phone (not logged into the Knox container).",
+		"when": "Saturday, March 18, 2017 after 6pm"
+  	},
+  	{
+  		"eventcolor": "Red",
+  		"type": "Send Word Now",
+  		"description": "“Send Word Now” Update E-mail",
+		"who": "All SWN users with an hii-nns.com e-mail address and are located on a HII-NNS campus ",
+		"what": "HII-NNS users with a hii-nns.com e-mail address and are located on a HII-NNS campus received a recipient-self-update-link initiated by the NNS Send Word Now administrator to view their contact record. The e-mail came from: Send Word Now (swnalert@sendwordnow.com) and the subject was: Request – Please update your Send Word Now profile. Employees who are not located in the GAL (Global Account Listing) and does not have an NNSCorp account, should use the following link (https://hii-nns.sendwordnow.com/HomePage.aspx) to register.",
+		"when": "Thursday, March 9, 2017"
+  	}
+  		
+  	
+  	
+  	]
+}
